@@ -1,0 +1,23 @@
+# Virtual Environment
+# Ignores the folder containing all installed third-party libraries
+venv/
+.venv/
+env/
+
+# Python Cache
+# Ignores compiled bytecode that Python generates to run faster
+__pycache__/
+*.py[cod]
+
+# Environment Variables / Secrets
+# Prevents accidental exposure of API keys and database credentials
+.env
+
+# Database (if using local SQLite)
+*.db
+*.sqlite3
+
+# IDE / Editor Specific
+.vscode/
+.idea/
+.DS_Store
